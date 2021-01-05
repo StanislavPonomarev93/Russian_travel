@@ -1,0 +1,15 @@
+.intro__stat {
+	font-weight: normal;
+	font-size: 13px;
+	line-height: 20px;
+	color: #FFFFFF;
+	margin: 0;
+}
+
+@media (max-width : 375px) {
+	.intro__stat {
+		font-size: 12px;
+		line-height: 19px;
+	}
+
+}

@@ -1,0 +1,9 @@
+.header_indents {
+	margin: 0 auto 60px;
+}
+
+@media (max-width : 767px) {
+	.header_indents {
+		margin: 0 auto 51px;
+	}
+}

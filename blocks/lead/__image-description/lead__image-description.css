@@ -1,0 +1,6 @@
+@import url('../__image/lead__image.css');
+@import url('../__caption/lead__caption.css');
+
+.lead__image-description {
+	margin: 0;
+}

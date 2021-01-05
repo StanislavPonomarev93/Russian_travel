@@ -1,0 +1,8 @@
+.video__item_kamchatka {
+	background-image: url(../../../../images/kamchatka.jpg);
+}
+
+.video__item_kamchatka:hover::before {
+	background-color: #000000;
+	opacity: 0.8;
+}

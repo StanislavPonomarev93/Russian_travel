@@ -1,0 +1,9 @@
+.video__item_observatory {
+	background-image: url(../../../../images/observatory.jpg);
+
+}
+
+.video__item_observatory:hover::before {
+	background-color: #000000;
+	opacity: 0.8;
+}

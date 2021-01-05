@@ -1,0 +1,7 @@
+@import url('./_indent-comments/content-subtitle_indent-comments.css');
+@import url('./_indent-video/content-subtitle_indent-video.css');
+
+.content-subtitle {
+	font-weight: normal;
+	color: #ffffff;
+}

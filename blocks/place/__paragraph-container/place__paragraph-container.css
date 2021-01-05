@@ -1,0 +1,13 @@
+@import url('../__paragraph/place__paragraph.css');
+
+.place__paragraph-container {
+	grid-column-start: 2;
+}
+
+@media (max-width : 767px) {
+	.place__paragraph-container {
+		grid-column-start: 1;
+		width: calc(100% - 32px);
+		margin: 21px auto 0;
+	}
+}

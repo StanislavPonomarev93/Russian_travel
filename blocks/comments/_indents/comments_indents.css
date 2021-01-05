@@ -1,0 +1,21 @@
+.comments_indents {
+	margin: 0 auto 95px;
+}
+
+@media (max-width : 1023px) {
+	.comments_indents {
+		margin: 0 auto 51px;
+	}
+}
+
+@media (max-width : 767px) {
+	.comments_indents {
+		margin: 0 auto;
+	}
+}
+
+@media (max-width : 374px) {
+	.comments_indents {
+		margin: 0 auto 19px;
+	}
+}

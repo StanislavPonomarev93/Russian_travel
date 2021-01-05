@@ -1,0 +1,15 @@
+.cover_indents {
+	margin: 0 auto 153px;
+}
+
+@media (max-width : 1023px) {
+	.cover_indents {
+		margin: 0 auto 97px;
+	}
+}
+
+@media (max-width : 767px) {
+	.cover_indents {
+		margin: 0 auto 58px;
+	}
+}

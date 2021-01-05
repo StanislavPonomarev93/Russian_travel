@@ -1,0 +1,5 @@
+@import url('./_type/_play/video__icon_type_play.css');
+
+.video__icon {
+	z-index: 1;
+}

@@ -1,0 +1,10 @@
+.lead_indents {
+	margin: 0 auto 81px;
+}
+
+
+@media (max-width : 767px) {
+	.lead_indents {
+		margin: 0 auto 64px;
+	}
+}

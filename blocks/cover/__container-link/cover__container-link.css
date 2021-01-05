@@ -1,0 +1,70 @@
+@import url('../__title/cover__title.css');
+@import url('../__subtitle/cover__subtitle.css');
+
+.cover__container-link {
+	position: relative;
+	background-image: url(../../../images/cover.jpg);
+	background-size: cover;
+	width: 1184px;
+	height: 594px;
+	display: block;
+	z-index: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: flex-end;
+	text-decoration: none;
+}
+
+.cover__container-link::before {
+	content: '';
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	position: absolute;
+	z-index: 1;
+	background: #2A2C2F;
+	opacity: 0.3;
+}
+
+.cover__container-link:hover::before {
+	background: #2A2C2F;
+	transition: .3s;
+	opacity: 0.8;
+}
+
+@media (max-width : 1279px) {
+	.cover__container-link {
+		width: 100%;
+		height: 55vw;
+		background-position: center;
+
+	}
+}
+
+@media (max-width : 1023px) {
+	.cover__container-link {
+		width: 100%;
+		height: 65.4vw;
+		background-position: center;
+
+	}
+}
+
+@media (max-width : 767px) {
+	.cover__container-link {
+		width: 100%;
+		height: 73.4vw;
+		background-position: center;
+
+	}
+}
+
+@media (max-width : 374px) {
+	.cover__container-link {
+		width: 100%;
+		height: 67.4vw;
+		background-position: center;
+	}
+}

@@ -1,0 +1,31 @@
+.footer__link {
+	text-decoration: none;
+	margin: 0;
+	padding: 0;
+	color: #ffffff;
+	font-weight: normal;
+	font-size: 24px;
+	line-height: 41px;
+}
+
+
+.footer__item:last-child .footer__link {
+	margin: 0;
+}
+
+
+@media (max-width : 1023px) {
+	.footer__link {
+		font-size: 16px;
+		line-height: 27px;
+	}
+}
+
+@media (max-width : 767px) {
+	.footer__link {
+		margin: 0 0 14px;
+		display: block;
+		font-size: 24px;
+		line-height: 41px;
+	}
+}

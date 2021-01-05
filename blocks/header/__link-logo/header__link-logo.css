@@ -1,0 +1,5 @@
+@import url('../__logo/header__logo.css');
+
+.header__link-logo:first-child {
+	margin-right: auto;
+}

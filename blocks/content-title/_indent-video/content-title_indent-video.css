@@ -1,0 +1,39 @@
+.content-title_indent-video {
+	width: 720px;
+	margin: 0 auto 31px;
+	text-indent: 39px;
+	line-height: 78px;
+	font-weight: 900;
+	font-size: 72px;
+}
+
+@media (max-width : 1023px) {
+	.content-title_indent-video {
+		width: 55vw;
+		margin: 0 auto 31px;
+		text-indent: 3vw;
+		letter-spacing: 0.1vw;
+		font-size: 5.3vw;
+		line-height: 6vw;
+	}
+}
+
+@media (max-width : 767px) {
+	.content-title_indent-video {
+		width: 320px;
+		margin: 0 auto 23px;
+		text-indent: 17px;
+		letter-spacing: 0;
+		font-size: 32px;
+		line-height: 35px;
+	}
+}
+
+@media (max-width : 374px) {
+	.content-title_indent-video {
+		width: 300px;
+		margin: 0 auto 20px;
+		text-align: center;
+		text-indent: 0;
+	}
+}

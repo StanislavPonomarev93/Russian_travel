@@ -1,0 +1,22 @@
+.places_indents {
+	margin: 0 auto 108px;
+}
+
+@media (max-width : 1023px) {
+	.places_indents {
+		margin: 0 auto 110px;
+	}
+}
+
+@media (max-width : 767px) {
+	.places_indents {
+		margin: 0 auto 73px;
+	}
+}
+
+
+@media (max-width : 374px) {
+	.places_indents {
+		margin: 0 auto 71px;
+	}
+}
