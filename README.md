@@ -11,5 +11,6 @@
 * Адаптивная верстка
 * Grid
 * Flex
+* PerfectPixel
 
 ### Version 0.0.1
